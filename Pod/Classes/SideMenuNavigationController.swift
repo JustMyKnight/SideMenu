@@ -81,11 +81,11 @@ public struct SideMenuSettings: Model, InitializableStruct {
     public var completeGestureDuration: Double = 0.35
     public var completionCurve: UIView.AnimationCurve = .easeIn
     public var dismissDuration: Double = 0.35
-    public var dismissOnPresent: Bool = true
-    public var dismissOnPush: Bool = true
-    public var dismissOnRotation: Bool = true
-    public var dismissWhenBackgrounded: Bool = true
-    public var enableSwipeToDismissGesture: Bool = true
+    public var dismissOnPresent: Bool = false
+    public var dismissOnPush: Bool = false
+    public var dismissOnRotation: Bool = false
+    public var dismissWhenBackgrounded: Bool = false
+    public var enableSwipeToDismissGesture: Bool = false
     public var enableTapToDismissGesture: Bool = true
     public var initialSpringVelocity: CGFloat = 1
     public var menuWidth: CGFloat = {
